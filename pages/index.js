@@ -1,65 +1,61 @@
+import React,{ useState,useEffect } from 'react';
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styled from 'styled-components';
+
+const List = styled.ul`
+  display:flex;
+  flex:1;
+  /* flex-grow:0; */
+  flex-shrink:1;
+`;
+
+const AnimatronicCardContainer = styled.div`
+  margin:2px;
+`;
+
+const AnimatronicImage = styled.img`
+  width: 250px;
+  height: 250px;
+  object-fit:cover;
+  border-radius: 5px;
+  background-color:#ccc;
+`;
+
+
+function AnimatronicCard({ image,name,game }){
+  return (
+    <AnimatronicCardContainer>
+      <AnimatronicImage src={image || 'https://placehold.it/150x150'} />
+      <strong>{name}</strong>
+      {' '}
+      <span>{game}</span>
+    </AnimatronicCardContainer>
+  )
+}
 
 export default function Home() {
+  const [animatronics,setAnimatronics] = useState([])
+
+  useEffect(async() => {
+    const animatronicsOfApi = await fetch('/api/v1/all');
+    const animatronicsOfApiJson = await animatronicsOfApi.json();
+
+    setAnimatronics(animatronicsOfApiJson);
+  },[])
+
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Fnaf Web</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <List>
+        {animatronics.map(({ name,image,game }) => (
+          <AnimatronicCard key={`${name} of ${game}----${image}`} name={name} image={image}  game={game} />
+        ))}
+      </List>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
   )
 }
