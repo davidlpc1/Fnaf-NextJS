@@ -3,13 +3,11 @@ import Head from 'next/head'
 import styled from 'styled-components';
 
 const List = styled.ul`
-  display:flex;
-  flex:1;
-  /* flex-grow:0; */
-  flex-shrink:1;
+
 `;
 
-const AnimatronicCardContainer = styled.div`
+const AnimatronicCardContainer = styled.li`
+  list-style:none;  
   margin:2px;
 `;
 
@@ -36,12 +34,16 @@ function AnimatronicCard({ image,name,game }){
 export default function Home() {
   const [animatronics,setAnimatronics] = useState([])
 
-  useEffect(async() => {
-    const animatronicsOfApi = await fetch('/api/v1/all');
-    const animatronicsOfApiJson = await animatronicsOfApi.json();
+  useEffect(() => {
+    async function fetchData(){
+      const animatronicsOfApi = await fetch('/api/v1/all');
+      const animatronicsOfApiJson = await animatronicsOfApi.json();
+  
+      setAnimatronics(animatronicsOfApiJson);
+    }
 
-    setAnimatronics(animatronicsOfApiJson);
-  },[])
+    fetchData()
+  },[ ])
 
   return (
     <div>
@@ -50,11 +52,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <List>
-        {animatronics.map(({ name,image,game }) => (
-          <AnimatronicCard key={`${name} of ${game}----${image}`} name={name} image={image}  game={game} />
-        ))}
-      </List>
+      {animatronics.length > 0 && (
+        <List>
+          {animatronics.map(({ name,image,game }) => (
+            <AnimatronicCard key={`${name} of ${game}----${image}`} name={name} image={image}  game={game} />
+          ))}
+        </List>
+      )}
 
     </div>
   )
