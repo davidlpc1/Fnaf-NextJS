@@ -7,7 +7,7 @@ export default function AnimatronicCard({ image, name, game }) {
     window.speechSynthesis.cancel(msg);
 
     const msg = new SpeechSynthesisUtterance();
-    msg.text = `${name} of ${game}`;
+    msg.text = `${name} of ${game || "Five Nights At Freddy"}`;
     msg.lang = "en-us";
     window.speechSynthesis.speak(msg);
 
