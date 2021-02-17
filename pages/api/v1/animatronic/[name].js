@@ -17,5 +17,5 @@ export default function getOneCharacter(request,response){
         return;
     }
 
-    response.status(200).json(animatronics);
+    response.status(200).json(character);
 }
