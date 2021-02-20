@@ -1,4 +1,5 @@
-import animatronics from './animatronics.json';
+// 61 animatronics at 20/02/2021
+import animatronics from './animatronics.json'; 
 
 export default function getAllCharacters(request,response){
     if (request.method === 'OPTIONS') {
