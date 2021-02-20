@@ -5,8 +5,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   height: 100%;
+  background: #111;
+  cursor: url(https://vignette.wikia.nocookie.net/freddy-fazbears-pizza/images/a/af/CustomCursorDefault.png/revision/latest?cb=20190910131145),auto;
 }
 
 * {
+  color:#e5e5e5;
   box-sizing: border-box;
+}
+
+img:hover,a:hover,h1:hover {
+  cursor: url(https://vignette.wikia.nocookie.net/freddy-fazbears-pizza/images/d/d7/CustomCursorLink.png/revision/latest?cb=20190910131205),pointer;
 }
