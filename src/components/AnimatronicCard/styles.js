@@ -20,5 +20,6 @@ export const AnimatronicImage = styled.img`
   height: 15.5rem;
   object-fit: cover;
   border-radius: 5px;
-  background-color: #ccc;
+  background: rgb(58,91,11);
+background: radial-gradient(circle, rgba(58,91,11,1) 0%, rgba(0,0,0,1) 100%);
 `;
