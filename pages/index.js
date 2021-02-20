@@ -20,8 +20,8 @@ export default function Home() {
 
   return (
     <div>
-      <Head title="Fnaf Web" />
-      <h1 style={{ margin:5 }}>Fnaf API</h1>
+      <Head title={`Fnaf API - ${animatronics.length || 0} Animatronics`} />
+      <h1 style={{ margin:5 }}>Fnaf API - {animatronics.length || 0} Animatronics</h1>
       {animatronics.length > 0 && (
         <List>
           {animatronics.map(({ name,image,game }) => (
