@@ -1,4 +1,4 @@
-import animatronics from '../animatronics.json';
+import animatronics from './images.json';
 
 export default function getImage(request,response){
     const { name } = request.query;
