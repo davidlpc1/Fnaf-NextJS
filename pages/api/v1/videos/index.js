@@ -1,5 +1,4 @@
-// 63 animatronics at 23/02/2021
-import animatronics from './animatronics.json'; 
+import videos from './videos.json'; 
 
 export default function getAllCharacters(request,response){
     if (request.method === 'OPTIONS') {
@@ -11,5 +10,5 @@ export default function getAllCharacters(request,response){
     response.setHeader('Access-Control-Allow-Origin', '*');
     response.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
     
-    response.status(200).json(animatronics);
+    response.status(200).json(videos);
 }
