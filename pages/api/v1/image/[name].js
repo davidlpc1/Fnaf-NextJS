@@ -13,7 +13,7 @@ export default function getImage(request,response){
     
     const character = animatronics.find(animatronic => animatronic.name.trim().toLowerCase() === name.trim().toLowerCase())
     if(!character){
-        response.status(404).json({ message:'That animatronic doesnt exists',name })
+        response.status(404).redirect('https://cdn.neemo.com.br/uploads/settings_webdelivery/logo/3957/image-not-found.jpg');
         return;
     }
 

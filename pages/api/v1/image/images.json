@@ -1,74 +1,370 @@
 [
-    { "name":"Freddy","image":"https://i.pinimg.com/564x/9f/6a/58/9f6a582cd9990e9ca685856cf65e4ab7.jpg" },
-    { "name":"Bonnie","image":"https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/3/3b/Bonnie_merchandise.jpg" },
-    { "name":"Chica","image":"https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/5/5f/Chica_Official_Render.jpeg" },
-    { "name":"Foxy","image":"https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/9/98/Foxy_merchandise.jpg" },
-    { "name":"Golden Freddy","image":"https://pm1.narvii.com/6851/b09a6079df6ed402e5073f787c40b738f3566918v2_hq.jpg" },
-    { "name":"Endo 1","image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/ea913d03-fb80-481c-bb10-9f6604828aec/dc3665d-1d099bd5-16c2-47ed-bb64-4f22ccf709d1.png" },
-    { "name":"Toy Freddy","image":"https://i.redd.it/f0t7cwef3hi01.jpg" },
-    { "name":"Toy Bonnie","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQN3Zod-IO7MaAJOIhVWhYQKmvnS8jYPj5xA&usqp=CAU"  },
-    { "name":"Toy Chica","image":"https://pm1.narvii.com/7094/2f7affe00fe4c3369229c9e13768f7df3d5c6d13r1-2024-2024v2_hq.jpg"  },
-    { "name":"Ballon Boy","image":"https://pm1.narvii.com/7087/e0118f37e50cf5042248339cd218d693a7096045r1-2024-2024v2_hq.jpg"  },
-    { "name":"JJ","image":"https://i.redd.it/iwye4mn396121.jpg"  },
-    { "name":"Puppet","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1mBKLO1ES9iWqbM7506T5API4SRqlVjK2ng&usqp=CAU"  },
-    { "name":"Withered Bonnie","image":"https://i.pinimg.com/originals/e4/bb/62/e4bb62d5f8a5e643572933dc964dd192.jpg"  },
-    { "name":"Withered Chica","image":"https://i.pinimg.com/originals/fe/73/b0/fe73b0b37f6c6ea5fb678ac0954afe68.jpg"  },
-    { "name":"Withered Freddy","image":"https://i1.sndcdn.com/artworks-000119990404-2anm0k-t500x500.jpg"  },
-    { "name":"Withered Foxy","image":"https://wallpapercave.com/wp/wp7486118.png"  },
-    { "name":"Withered Golden Freddy","image":"https://i.pinimg.com/originals/20/b9/28/20b928bd7c1025e3ac654b0abe1aa567.jpg"  },
-    { "name":"Mangle","image":"https://i.redd.it/letc3anp79e41.png"  },    
-    { "name":"Shadow Bonnie","image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fbc69204-c245-4155-8208-00068cd62a0c/d8dbkru-cfe0148c-368c-439f-af5b-627a36bfa48a.png/v1/fill/w_806,h_991,q_75,strp/shadow_bonnie_by_graceofireland-d8dbkru.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mYmM2OTIwNC1jMjQ1LTQxNTUtODIwOC0wMDA2OGNkNjJhMGMvZDhkYmtydS1jZmUwMTQ4Yy0zNjhjLTQzOWYtYWY1Yi02MjdhMzZiZmE0OGEucG5nIiwid2lkdGgiOiI8PTgwNiIsImhlaWdodCI6Ijw9OTkxIn1dXX0.pCuKyFji_TG17YrZKshJH1pv_mvUy6e6sn-bnXgF8eE"  },
-    { "name":"Shadow Freddy","image":"https://orig00.deviantart.net/baa0/f/2017/079/d/a/shadow_freddy_by_biue_bonny-db2ys39.png"  },
-    { "name":"Endo 2","image":"https://pm1.narvii.com/6554/eeae004ae35af9269005570f5e4e1b0ecd445798_hq.jpg"  },
-    { "name":"Springtrap","image":"https://i.pinimg.com/originals/e1/fc/8f/e1fc8fb039a02c107d6aaf867efca781.jpg"  },
-    { "name":"Phantom Freddy","image":"https://i.pinimg.com/originals/88/e7/67/88e76775aee10d7582845766fcf79ab6.jpg" },
-    { "name":"Phantom Chica","image":"https://i.pinimg.com/originals/9b/63/3f/9b633f86f55858538ff943f9fc0b5a15.png" },
-    { "name":"Phantom Foxy","image":"https://i.pinimg.com/originals/3c/d7/b3/3cd7b3a76a37485663f01ca228c6fabb.png" },
-    { "name":"Phantom Bonnie","image":"https://i.redd.it/bp4yvrhg2sk41.png" },
-    { "name":"Phantom Ballon Boy","image":"https://pbs.twimg.com/profile_images/1317554735424045056/x_XrZkf4_400x400.jpg" },
-    { "name":"Phantom Mangle","image":"https://orig00.deviantart.net/9082/f/2016/356/7/b/phantom_mangle_8k_by_andydatraginpyro-dasjnn5.jpg" },
-    { "name":"Phantom Puppet","image":"https://i.pinimg.com/originals/45/53/eb/4553eb32eb06f87681e03200a56f35fd.jpg" },
-    { "name":"Nightmare Bonnie","image":"https://i.pinimg.com/originals/97/72/76/97727648eafaa2b4e9d346f6ce7ef897.jpg"  },
-    { "name":"Nightmare Freddy","image":"https://i.pinimg.com/originals/e5/23/ea/e523ea9759d976d5509eb194002aa0f0.jpg" },
-    { "name":"Nightmare Chica","image":"https://orig00.deviantart.net/017a/f/2016/223/4/a/nightmare_chica_pose_remake_by_hunterwsanders-dadk042.png" },
-    { "name":"Nightmare Foxy","image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c2dd060-3b1d-4ab1-af82-b3bf9b853993/dbu7hpc-9cc86d97-9257-4aa2-9d10-5aceb16d66e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmMyZGQwNjAtM2IxZC00YWIxLWFmODItYjNiZjliODUzOTkzXC9kYnU3aHBjLTljYzg2ZDk3LTkyNTctNGFhMi05ZDEwLTVhY2ViMTZkNjZlMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.PJorgdQW4rAQkWlr0GcZynnnTfNTp4JOswdOikBa20c" },
-    { "name":"Nightmare Fredbear","image":"https://i.redd.it/pwvs6m4ecfg51.png" },
-    { "name":"Nightmare","image":"https://i.pinimg.com/originals/9d/06/d2/9d06d25ca5755dc150a2b9cfdc50af5b.png" },
-    { "name":"Nightmare Mangle","image":"https://th.bing.com/th/id/OIP.VpuMH-RYhUHEz4DWfM5zpAHaEK?pid=ImgDet&rs=1" },
-    { "name":"Nightmare Puppet","image":"https://i.pinimg.com/originals/15/80/a5/1580a5489f66f4424f6c4233814b8798.png" },
-    { "name":"Nightmare Ballon Boy","image":"https://i.pinimg.com/564x/53/43/98/5343984da8473e42d6bcef99f9e8c32e.jpg" },
-    { "name":"Plushtrap","image":"https://64.media.tumblr.com/6cb3f8cddff9efada9e7ab499d2a3636/d330941308a65c67-01/s540x810/82920c7bd2228615928c42906d4b855b6c0ac786.jpg" },
-    { "name":"Jack-O-Bonnie","image":"https://orig00.deviantart.net/9393/f/2017/119/d/4/d474a7b4b918f10e863bd099d523ea13-db7ivqh.png" },
-    { "name":"Jack-O-Chica","image":"https://th.bing.com/th/id/OIP.x_rYzzPpnyN9qopZtd1TVQHaHa?pid=ImgDet&rs=1" },
-    { "name":"Circus Baby","image":"https://i.pinimg.com/originals/ac/b6/19/acb61940dc75f32ff015dc7f5b27ee8a.jpg" },
-    { "name":"Funtime Freddy","image":"https://cdn.wallpapersafari.com/87/66/GRfX34.png"  },
-    { "name":"Bon Bon","image":"https://pm1.narvii.com/6351/6e2b811a49e7847befc9eece40619faa58a7def2_hq.jpg"  },
-    { "name":"Bonnet","image":"https://th.bing.com/th/id/OIP.AgZzK4yf7liB2WsZpBd3iAAAAA?pid=ImgDet&rs=1"  },
-    { "name":"Bidy Baby","image":"https://img00.deviantart.net/2c79/i/2017/219/d/4/bidybab_v2_by_cxel1al-dbj7flo.png"  },
-    { "name":"Minireena","image":"https://th.bing.com/th/id/R0296e790144ffd25a8aa737b82feadb9?rik=rThgGqnRuYw8%2bw&riu=http%3a%2f%2forig15.deviantart.net%2fe32c%2ff%2f2016%2f319%2fb%2f6%2fminireena_by_nathanzica_by_nathanzica-daoij82.png&ehk=CW7gT5poeC67WHWkJeCOJQ5it%2fZm5uvsjs9qZYJYNm4%3d&risl=&pid=ImgRaw"  },
-    { "name":"Funtime Foxy","image":"https://images6.fanpop.com/image/polls/1618000/1618831_1490065490698_full.png"  },
-    { "name":"Funtime Chica","image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/64122c89-a670-4067-b631-e39875a23c70/dcfkdkz-3a94230c-03a3-431f-b87a-9d317a681bae.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjQxMjJjODktYTY3MC00MDY3LWI2MzEtZTM5ODc1YTIzYzcwXC9kY2ZrZGt6LTNhOTQyMzBjLTAzYTMtNDMxZi1iODdhLTlkMzE3YTY4MWJhZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.syhkNlfUoCWSwFg02mRivgi8dB_kWanxigJy1u4TMDE"  },
-    { "name":"Ballora","image":"https://64.media.tumblr.com/9553ed752c868c52410b308a41a622fa/7f5af0bae31e4410-3d/s640x960/2057a253e7d413d60773408d49623f9ff0511bd3.jpg"  },
-    { "name":"Ennard","image":"https://pm1.narvii.com/6338/cd7d8d62d6ff6dccc67baf9ef0520c9cdbc9adb4_hq.jpg"  },
-    { "name":"Lolbit","image":"https://i.redd.it/ss0wlx4g2ez11.jpg"  },
-    { "name":"Rockstar Bonnie","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-WJLWKAlWpkZsyyBtKvDLtCBET_xHfOtSQ&usqp=CAU"  },
-    { "name":"Rockstar Freddy","image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesoA5Vw_fKVm7gj4XhmF-Y7_G_pwwumkDZA&usqp=CAU" },
-    { "name":"Rockstar Chica","image":"https://pm1.narvii.com/6818/983bb756348eef39dbe9a66712428c0a02c30e2dv2_128.jpg" },
-    { "name":"Rockstar Foxy","image":"https://i.pinimg.com/originals/1e/cb/79/1ecb79640976cc5edfbace1570a100ad.png" },
-    { "name":"Lefty","image":"https://i.pinimg.com/originals/32/be/70/32be7055fe471538d3253331006ef179.jpg" },
-    { "name":"Helpy","image":"https://pm1.narvii.com/7289/57ef23ad374ccbe848171e9c9502cc24256a4387r1-1920-1080v2_hq.jpg" },
-    { "name":"Scrap Baby","image":"https://i.redd.it/msjxujzf7cm01.png" },
-    { "name":"Security Puppet","image":"https://th.bing.com/th/id/OIP.j6y1N7cbqFw3hN5-_s8pGwHaGK?pid=ImgDet&rs=1" },
-    { "name":"Molted Freddy","image":"https://static.wikia.nocookie.net/freddy-fazbears-pizzeria-simulator/images/c/cc/MFreddyInfobox.png" },
-    { "name":"Scraptrap","image":"https://pm1.narvii.com/6781/5715743e7bb5ae3f3d2ce9ffe891f9eee95e9dffv2_hq.jpg"  },
-    { "name":"Happy Frog","image":"https://i.pinimg.com/originals/32/f6/89/32f6892bb25342b92e455fc6786d5d8c.jpg"},
-    { "name":"Mr.Hippo","image":"https://i.pinimg.com/originals/3f/02/0e/3f020eb0a663e1fcbf2e6a9ef2764e2e.jpg"},
-    { "name":"Pigpatch","image":"https://i.pinimg.com/originals/f4/2d/52/f42d522a9fe5d83065053edbd42757e3.png"},
-    { "name":"Need Bear","image":"https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/c/cc/FFPS_Nedd_Bear_Model.png"},
-    { "name":"Orville Elephant","image":"https://pm1.narvii.com/6679/eb25dbdd32bae6243285ec7f20b48f16f58b1e9f_hq.jpg"},
-    { "name":"Candy Cadet","image":"https://i.redd.it/7a9wb2wazi401.png"},
-    { "name":"Neon Junkbox","image":"https://wi.wallpapertip.com/wsimgs/3-36767_neon-jukebox-fnaf-transparent-png-neon-jukebox-fnaf.png"},
-    { "name":"El Chip","image":"https://i.pinimg.com/originals/31/b9/e2/31b9e2920db0f1dd3369ec23ce43e731.png"},
-    { "name":"Glitchtrap","image":"https://static.wikia.nocookie.net/187c6fdb-b046-469c-bf7c-e718de857c7e"  },
-    { "name":"Vanny","image":"https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/8/8b/Obey.jpg/revision/latest?cb=20200807175052"}
+    {
+        "name": "Freddy",
+        "image": "https://i.pinimg.com/564x/9f/6a/58/9f6a582cd9990e9ca685856cf65e4ab7.jpg"
+    },
+    {
+        "name": "Bonnie",
+        "image": "https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/3/3b/Bonnie_merchandise.jpg"
+    },
+    {
+        "name": "Chica",
+        "image": "https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/5/5f/Chica_Official_Render.jpeg"
+    },
+    {
+        "name": "Foxy",
+        "image": "https://static.wikia.nocookie.net/freddy-fazbears-pizza/images/9/98/Foxy_merchandise.jpg"
+    },
+    {
+        "name": "Golden Freddy",
+        "image": "https://pm1.narvii.com/6851/b09a6079df6ed402e5073f787c40b738f3566918v2_hq.jpg"
+    },
+    {
+        "name": "Endo 1",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/ea913d03-fb80-481c-bb10-9f6604828aec/dc3665d-1d099bd5-16c2-47ed-bb64-4f22ccf709d1.png"
+    },
+    {
+        "name": "Toy Freddy",
+        "image": "https://i.redd.it/f0t7cwef3hi01.jpg"
+    },
+    {
+        "name": "Toy Bonnie",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQN3Zod-IO7MaAJOIhVWhYQKmvnS8jYPj5xA&usqp=CAU"
+    },
+    {
+        "name": "Toy Chica",
+        "image": "https://pm1.narvii.com/7094/2f7affe00fe4c3369229c9e13768f7df3d5c6d13r1-2024-2024v2_hq.jpg"
+    },
+    {
+        "name": "Ballon Boy",
+        "image": "https://pm1.narvii.com/7087/e0118f37e50cf5042248339cd218d693a7096045r1-2024-2024v2_hq.jpg"
+    },
+    {
+        "name": "JJ",
+        "image": "https://i.redd.it/iwye4mn396121.jpg"
+    },
+    {
+        "name": "Puppet",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1mBKLO1ES9iWqbM7506T5API4SRqlVjK2ng&usqp=CAU"
+    },
+    {
+        "name": "Withered Bonnie",
+        "image": "https://i.pinimg.com/originals/e4/bb/62/e4bb62d5f8a5e643572933dc964dd192.jpg"
+    },
+    {
+        "name": "Withered Chica",
+        "image": "https://i.pinimg.com/originals/fe/73/b0/fe73b0b37f6c6ea5fb678ac0954afe68.jpg"
+    },
+    {
+        "name": "Withered Freddy",
+        "image": "https://i1.sndcdn.com/artworks-000119990404-2anm0k-t500x500.jpg"
+    },
+    {
+        "name": "Withered Foxy",
+        "image": "https://wallpapercave.com/wp/wp7486118.png"
+    },
+    {
+        "name": "Withered Golden Freddy",
+        "image": "https://i.pinimg.com/originals/20/b9/28/20b928bd7c1025e3ac654b0abe1aa567.jpg"
+    },
+    {
+        "name": "Mangle",
+        "image": "https://i.redd.it/letc3anp79e41.png"
+    },
+    {
+        "name": "Shadow Bonnie",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fbc69204-c245-4155-8208-00068cd62a0c/d8dbkru-cfe0148c-368c-439f-af5b-627a36bfa48a.png/v1/fill/w_806,h_991,q_75,strp/shadow_bonnie_by_graceofireland-d8dbkru.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi9mYmM2OTIwNC1jMjQ1LTQxNTUtODIwOC0wMDA2OGNkNjJhMGMvZDhkYmtydS1jZmUwMTQ4Yy0zNjhjLTQzOWYtYWY1Yi02MjdhMzZiZmE0OGEucG5nIiwid2lkdGgiOiI8PTgwNiIsImhlaWdodCI6Ijw9OTkxIn1dXX0.pCuKyFji_TG17YrZKshJH1pv_mvUy6e6sn-bnXgF8eE"
+    },
+    {
+        "name": "Shadow Freddy",
+        "image": "https://orig00.deviantart.net/baa0/f/2017/079/d/a/shadow_freddy_by_biue_bonny-db2ys39.png"
+    },
+    {
+        "name": "Endo 2",
+        "image": "https://pm1.narvii.com/6554/eeae004ae35af9269005570f5e4e1b0ecd445798_hq.jpg"
+    },
+    {
+        "name": "Springtrap",
+        "image": "https://i.pinimg.com/originals/e1/fc/8f/e1fc8fb039a02c107d6aaf867efca781.jpg"
+    },
+    {
+        "name": "Phantom Freddy",
+        "image": "https://i.pinimg.com/originals/88/e7/67/88e76775aee10d7582845766fcf79ab6.jpg"
+    },
+    {
+        "name": "Phantom Chica",
+        "image": "https://i.pinimg.com/originals/9b/63/3f/9b633f86f55858538ff943f9fc0b5a15.png"
+    },
+    {
+        "name": "Phantom Foxy",
+        "image": "https://i.pinimg.com/originals/3c/d7/b3/3cd7b3a76a37485663f01ca228c6fabb.png"
+    },
+    {
+        "name": "Phantom Bonnie",
+        "image": "https://i.redd.it/bp4yvrhg2sk41.png"
+    },
+    {
+        "name": "Phantom Ballon Boy",
+        "image": "https://pbs.twimg.com/profile_images/1317554735424045056/x_XrZkf4_400x400.jpg"
+    },
+    {
+        "name": "Phantom Mangle",
+        "image": "https://orig00.deviantart.net/9082/f/2016/356/7/b/phantom_mangle_8k_by_andydatraginpyro-dasjnn5.jpg"
+    },
+    {
+        "name": "Phantom Puppet",
+        "image": "https://i.pinimg.com/originals/45/53/eb/4553eb32eb06f87681e03200a56f35fd.jpg"
+    },
+    {
+        "name": "Nightmare Bonnie",
+        "image": "https://i.pinimg.com/originals/97/72/76/97727648eafaa2b4e9d346f6ce7ef897.jpg"
+    },
+    {
+        "name": "Nightmare Freddy",
+        "image": "https://i.pinimg.com/originals/e5/23/ea/e523ea9759d976d5509eb194002aa0f0.jpg"
+    },
+    {
+        "name": "Nightmare Chica",
+        "image": "https://orig00.deviantart.net/017a/f/2016/223/4/a/nightmare_chica_pose_remake_by_hunterwsanders-dadk042.png"
+    },
+    {
+        "name": "Nightmare Foxy",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2c2dd060-3b1d-4ab1-af82-b3bf9b853993/dbu7hpc-9cc86d97-9257-4aa2-9d10-5aceb16d66e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMmMyZGQwNjAtM2IxZC00YWIxLWFmODItYjNiZjliODUzOTkzXC9kYnU3aHBjLTljYzg2ZDk3LTkyNTctNGFhMi05ZDEwLTVhY2ViMTZkNjZlMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.PJorgdQW4rAQkWlr0GcZynnnTfNTp4JOswdOikBa20c"
+    },
+    {
+        "name": "Nightmare Fredbear",
+        "image": "https://i.redd.it/pwvs6m4ecfg51.png"
+    },
+    {
+        "name": "Nightmare",
+        "image": "https://i.pinimg.com/originals/9d/06/d2/9d06d25ca5755dc150a2b9cfdc50af5b.png"
+    },
+    {
+        "name": "Nightmare Mangle",
+        "image": "https://th.bing.com/th/id/OIP.VpuMH-RYhUHEz4DWfM5zpAHaEK?pid=ImgDet&rs=1"
+    },
+    {
+        "name": "Nightmare Puppet",
+        "image": "https://i.pinimg.com/originals/15/80/a5/1580a5489f66f4424f6c4233814b8798.png"
+    },
+    {
+        "name": "Nightmare Ballon Boy",
+        "image": "https://i.pinimg.com/564x/53/43/98/5343984da8473e42d6bcef99f9e8c32e.jpg"
+    },
+    {
+        "name": "Plushtrap",
+        "image": "https://64.media.tumblr.com/6cb3f8cddff9efada9e7ab499d2a3636/d330941308a65c67-01/s540x810/82920c7bd2228615928c42906d4b855b6c0ac786.jpg"
+    },
+    {
+        "name": "Jack-O-Bonnie",
+        "image": "https://orig00.deviantart.net/9393/f/2017/119/d/4/d474a7b4b918f10e863bd099d523ea13-db7ivqh.png"
+    },
+    {
+        "name": "Jack-O-Chica",
+        "image": "https://th.bing.com/th/id/OIP.x_rYzzPpnyN9qopZtd1TVQHaHa?pid=ImgDet&rs=1"
+    },
+    {
+        "name": "Circus Baby",
+        "image": "https://i.pinimg.com/originals/ac/b6/19/acb61940dc75f32ff015dc7f5b27ee8a.jpg"
+    },
+    {
+        "name": "Funtime Freddy",
+        "image": "https://cdn.wallpapersafari.com/87/66/GRfX34.png"
+    },
+    {
+        "name": "Bon Bon",
+        "image": "https://pm1.narvii.com/6351/6e2b811a49e7847befc9eece40619faa58a7def2_hq.jpg"
+    },
+    {
+        "name": "Bonnet",
+        "image": "https://th.bing.com/th/id/OIP.AgZzK4yf7liB2WsZpBd3iAAAAA?pid=ImgDet&rs=1"
+    },
+    {
+        "name": "Bidy Baby",
+        "image": "https://img00.deviantart.net/2c79/i/2017/219/d/4/bidybab_v2_by_cxel1al-dbj7flo.png"
+    },
+    {
+        "name": "Minireena",
+        "image": "https://th.bing.com/th/id/R0296e790144ffd25a8aa737b82feadb9?rik=rThgGqnRuYw8%2bw&riu=http%3a%2f%2forig15.deviantart.net%2fe32c%2ff%2f2016%2f319%2fb%2f6%2fminireena_by_nathanzica_by_nathanzica-daoij82.png&ehk=CW7gT5poeC67WHWkJeCOJQ5it%2fZm5uvsjs9qZYJYNm4%3d&risl=&pid=ImgRaw"
+    },
+    {
+        "name": "Funtime Foxy",
+        "image": "https://images6.fanpop.com/image/polls/1618000/1618831_1490065490698_full.png"
+    },
+    {
+        "name": "Funtime Chica",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/64122c89-a670-4067-b631-e39875a23c70/dcfkdkz-3a94230c-03a3-431f-b87a-9d317a681bae.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNjQxMjJjODktYTY3MC00MDY3LWI2MzEtZTM5ODc1YTIzYzcwXC9kY2ZrZGt6LTNhOTQyMzBjLTAzYTMtNDMxZi1iODdhLTlkMzE3YTY4MWJhZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.syhkNlfUoCWSwFg02mRivgi8dB_kWanxigJy1u4TMDE"
+    },
+    {
+        "name": "Ballora",
+        "image": "https://64.media.tumblr.com/9553ed752c868c52410b308a41a622fa/7f5af0bae31e4410-3d/s640x960/2057a253e7d413d60773408d49623f9ff0511bd3.jpg"
+    },
+    {
+        "name": "Ennard",
+        "image": "https://pm1.narvii.com/6338/cd7d8d62d6ff6dccc67baf9ef0520c9cdbc9adb4_hq.jpg"
+    },
+    {
+        "name": "Lolbit",
+        "image": "https://i.redd.it/ss0wlx4g2ez11.jpg"
+    },
+    {
+        "name": "Rockstar Bonnie",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-WJLWKAlWpkZsyyBtKvDLtCBET_xHfOtSQ&usqp=CAU"
+    },
+    {
+        "name": "Rockstar Freddy",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQesoA5Vw_fKVm7gj4XhmF-Y7_G_pwwumkDZA&usqp=CAU"
+    },
+    {
+        "name": "Rockstar Chica",
+        "image": "https://pm1.narvii.com/6818/983bb756348eef39dbe9a66712428c0a02c30e2dv2_128.jpg"
+    },
+    {
+        "name": "Rockstar Foxy",
+        "image": "https://i.pinimg.com/originals/1e/cb/79/1ecb79640976cc5edfbace1570a100ad.png"
+    },
+    {
+        "name": "Lefty",
+        "image": "https://i.pinimg.com/originals/32/be/70/32be7055fe471538d3253331006ef179.jpg"
+    },
+    {
+        "name": "Helpy",
+        "image": "https://pm1.narvii.com/7289/57ef23ad374ccbe848171e9c9502cc24256a4387r1-1920-1080v2_hq.jpg"
+    },
+    {
+        "name": "Scrap Baby",
+        "image": "https://i.redd.it/msjxujzf7cm01.png"
+    },
+    {
+        "name": "Security Puppet",
+        "image": "https://th.bing.com/th/id/OIP.j6y1N7cbqFw3hN5-_s8pGwHaGK?pid=ImgDet&rs=1"
+    },
+    {
+        "name": "Molted Freddy",
+        "image": "https://static.wikia.nocookie.net/freddy-fazbears-pizzeria-simulator/images/c/cc/MFreddyInfobox.png"
+    },
+    {
+        "name": "Scraptrap",
+        "image": "https://pm1.narvii.com/6781/5715743e7bb5ae3f3d2ce9ffe891f9eee95e9dffv2_hq.jpg"
+    },
+    {
+        "name": "Happy Frog",
+        "image": "https://i.pinimg.com/originals/32/f6/89/32f6892bb25342b92e455fc6786d5d8c.jpg"
+    },
+    {
+        "name": "Mr.Hippo",
+        "image": "https://i.pinimg.com/originals/3f/02/0e/3f020eb0a663e1fcbf2e6a9ef2764e2e.jpg"
+    },
+    {
+        "name": "Pig Patch",
+        "image": "https://i.pinimg.com/originals/f4/2d/52/f42d522a9fe5d83065053edbd42757e3.png"
+    },
+    {
+        "name": "Need Bear",
+        "image": "https://pm1.narvii.com/7455/e2dac20e4ebc9dd5b80444ab01e1d21761c6e188r1-1280-720v2_hq.jpg"
+    },
+    {
+        "name": "Orville Elephant",
+        "image": "https://pm1.narvii.com/6679/eb25dbdd32bae6243285ec7f20b48f16f58b1e9f_hq.jpg"
+    },
+    {
+        "name": "Candy Cadet",
+        "image": "https://i.redd.it/7a9wb2wazi401.png"
+    },
+    {
+        "name": "Neon Junkbox",
+        "image": "https://wi.wallpapertip.com/wsimgs/3-36767_neon-jukebox-fnaf-transparent-png-neon-jukebox-fnaf.png"
+    },
+    {
+        "name": "El Chip",
+        "image": "https://i.pinimg.com/originals/31/b9/e2/31b9e2920db0f1dd3369ec23ce43e731.png"
+    },
+    {
+        "name": "Glitchtrap",
+        "image": "https://static.wikia.nocookie.net/187c6fdb-b046-469c-bf7c-e718de857c7e"
+    },
+    {
+        "name": "Vanny",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61emgMsBTfL._AC_SX425_.jpg"
+    },
+    {
+        "name": "Adventure Bonnie",
+        "image": "https://i.pinimg.com/originals/b8/a2/f8/b8a2f8b12c7d345353954afbc08f75cf.jpg"
+    },
+    {
+        "name": "Adventure Freddy",
+        "image": "https://i.redd.it/ywggkqmmapf41.png"
+    },
+    {
+        "name": "Adventure Chica",
+        "image": "https://i.redd.it/7rqjc2x6n9w01.png"
+    },
+    {
+        "name": "Adventure Foxy",
+        "image": "https://i.pinimg.com/originals/41/ee/bc/41eebcedd49fe2f7a066f0f1d21cd7ae.png"
+    },
+    {
+        "name": "Adventure Toy Freddy",
+        "image": "https://i.pinimg.com/originals/e9/83/01/e98301ec5cd3c2629f5a00e9d47171aa.jpg"
+    },
+    {
+        "name": "Adventure Toy Bonnie",
+        "image": "https://i.pinimg.com/originals/b4/f1/da/b4f1dadce265d273e569fa7b71bf29f4.png"
+    },
+    {
+        "name": "Adventure Toy Chica",
+        "image": "https://i.pinimg.com/originals/34/7d/08/347d0842407c43bcdc749a2be961bb43.jpg"
+    },
+    {
+        "name": "Adventure Mangle",
+        "image": "https://i.pinimg.com/originals/a9/2e/93/a92e93701c79dd0af054fa2f88dba376.jpg"
+    },
+    {
+        "name": "Adventure Ballon Boy",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d4cdd49b-1838-4f98-b891-aa27a64629f7/d99qrq9-9ff77018-b985-4ebd-8d37-5fa098b3e3a3.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDRjZGQ0OWItMTgzOC00Zjk4LWI4OTEtYWEyN2E2NDYyOWY3XC9kOTlxcnE5LTlmZjc3MDE4LWI5ODUtNGViZC04ZDM3LTVmYTA5OGIzZTNhMy5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.xpC8QajX_8B5YK7OsemsYWzFRN7k_BVDUm4jtFwjIFY"
+    },
+    {
+        "name": "Adventure JJ",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d4cdd49b-1838-4f98-b891-aa27a64629f7/d99msxh-2f73a3bf-d874-4792-bef8-37652e8760f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDRjZGQ0OWItMTgzOC00Zjk4LWI4OTEtYWEyN2E2NDYyOWY3XC9kOTltc3hoLTJmNzNhM2JmLWQ4NzQtNDc5Mi1iZWY4LTM3NjUyZTg3NjBmOS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ao0L4jn8OevaHwPMbTYEx6w-raJJUk8Wxip9PESLQ9w"
+    },
+    {
+        "name": "Adventure Phantom Freddy",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d4cdd49b-1838-4f98-b891-aa27a64629f7/d9hthcf-a3e29944-76f6-4846-a6df-237d629f3961.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDRjZGQ0OWItMTgzOC00Zjk4LWI4OTEtYWEyN2E2NDYyOWY3XC9kOWh0aGNmLWEzZTI5OTQ0LTc2ZjYtNDg0Ni1hNmRmLTIzN2Q2MjlmMzk2MS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.zXaReYxlVbnLPuOXdes5_Qj78bCX8Gu6YLbZxgcq4Po"
+    },
+    {
+        "name": "Adventure Phantom Bonnie",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/95763298-cd24-48dc-8d01-8ad59064a04f/dar3w7k-47537cc7-67b5-48ac-993d-5af23eb2e79b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTU3NjMyOTgtY2QyNC00OGRjLThkMDEtOGFkNTkwNjRhMDRmXC9kYXIzdzdrLTQ3NTM3Y2M3LTY3YjUtNDhhYy05OTNkLTVhZjIzZWIyZTc5Yi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.uocRFVP9n79OPr5aKXHDnLWCnWlsWKMScxIodTjJXjM"
+    },
+    {
+        "name": "Adventure Phantom Chica",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d4cdd49b-1838-4f98-b891-aa27a64629f7/d9goo6e-efc417f5-5753-4504-83c9-cd45df6aecb5.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDRjZGQ0OWItMTgzOC00Zjk4LWI4OTEtYWEyN2E2NDYyOWY3XC9kOWdvbzZlLWVmYzQxN2Y1LTU3NTMtNDUwNC04M2M5LWNkNDVkZjZhZWNiNS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.slvTI1aO9kogqH2vIn5pFVE4eMv5SR1Xfcd7y4BhzzE"
+    },
+    {
+        "name": "Adventure Phantom Foxy",
+        "image": "https://pm1.narvii.com/6396/15d0ad34693cb0a40b74a8303c6fd00e63b47e36_hq.jpg"
+    },
+    {
+        "name": "Adventure Phantom Mangle",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d4cdd49b-1838-4f98-b891-aa27a64629f7/d9e8fk2-ef068ca9-0b04-40f2-8e0b-6f95f58e143f.png/v1/fill/w_338,h_249,strp/adventure_phantom_mangle_full_body_by_joltgametravel_d9e8fk2-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yNDkiLCJwYXRoIjoiXC9mXC9kNGNkZDQ5Yi0xODM4LTRmOTgtYjg5MS1hYTI3YTY0NjI5ZjdcL2Q5ZThmazItZWYwNjhjYTktMGIwNC00MGYyLThlMGItNmY5NWY1OGUxNDNmLnBuZyIsIndpZHRoIjoiPD0zMzgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.hiGor0KEDkbP-EHZ_gVJQJ1zf6aRzogovEmh6jCJNRo"
+    },
+    {
+        "name": "Adventure Phantom Ballon Boy",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d703fc3a-23e5-41ca-a298-2fe7856c8d95/dau00yr-006f0bab-2298-4ce4-b498-00bc124e3ed8.png/v1/fill/w_250,h_250,strp/phantom_balloon_boy_accurate_by_yinyanggio1987_dau00yr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0yNTAiLCJwYXRoIjoiXC9mXC9kNzAzZmMzYS0yM2U1LTQxY2EtYTI5OC0yZmU3ODU2YzhkOTVcL2RhdTAweXItMDA2ZjBiYWItMjI5OC00Y2U0LWI0OTgtMDBiYzEyNGUzZWQ4LnBuZyIsIndpZHRoIjoiPD0yNTAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.W3KdI-n-gxk5KaYmratpVYOD9OtFD5PV2NNDFEVUlwQ"
+    },
+    {
+        "name": "Adventure Withered Freddy",
+        "image": "https://i.pinimg.com/originals/ca/c2/fc/cac2fc8801645e4ec03fca308835895b.png"
+    },
+    {
+        "name": "Adventure Withered Bonnie",
+        "image": "https://i.pinimg.com/originals/2d/dd/30/2ddd309c958a2e6c7d58531a9db605af.png"
+    },
+    {
+        "name": "Adventure Withered Chica",
+        "image": "https://i.pinimg.com/originals/f7/76/6a/f7766aa0164d23ed1d9cb3ec1ae3f1fe.png"
+    },
+    {
+        "name": "Adventure Withered Foxy",
+        "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/984bb716-b4a7-4ce0-9deb-b584b6c143f2/da5iejb-e14431e5-a21c-4334-9886-a016f8c41f48.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTg0YmI3MTYtYjRhNy00Y2UwLTlkZWItYjU4NGI2YzE0M2YyXC9kYTVpZWpiLWUxNDQzMWU1LWEyMWMtNDMzNC05ODg2LWEwMTZmOGM0MWY0OC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.f9zZmnlep2UHfrRvtmdHmDg3M1hOn0BhdiKSRLgb_sA"
+    }
 ]

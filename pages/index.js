@@ -21,10 +21,10 @@ export default function Home() {
 
   return (
     <div>
-      <Head title={`Fnaf API - ${animatronics.length || 72} Animatronics`} />
+      <Head title={`Fnaf API - ${animatronics.length || "Loading"} Animatronics`} />
       <Menu />
       <h1 style={{ marginTop: 70, marginLeft: 20 }}>
-        Fnaf API - {animatronics.length || 72} Animatronics
+        Fnaf API - {animatronics.length || "Loading"} Animatronics
       </h1>
       {animatronics.length > 0 && (
         <List>
