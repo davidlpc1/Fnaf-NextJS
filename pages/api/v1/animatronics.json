@@ -310,8 +310,53 @@
         "game": "Five Nights at Freddy 6"
     },
     {
+        "name": "Happy Frog",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/happy frog",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
+        "name": "Mr.Hippo",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/mr.hippo",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
+        "name": "Pig Patch",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/pig patch",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
+        "name": "Need Bear",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/need bear",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
+        "name": "Orville Elephant",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/orville elephant",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
+        "name": "Candy Cadet",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/candy cadet",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
+        "name": "Neon Junkbox",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/neon junkbox",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
+        "name": "El Chip",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/el chip",
+        "game": "Five Nights at Freddy 6"
+    },
+    {
         "name": "Glitchtrap",
         "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/glitchtrap",
+        "game": "Five Nights at Freddy Help Wanted"
+    },
+    {
+        "name": "Vanny",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/vanny",
         "game": "Five Nights at Freddy Help Wanted"
     }
 ]
