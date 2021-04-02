@@ -79,65 +79,85 @@ const codeOfInformationAllAnimatronics = `async function getInformationOfAllAnim
 }
 `;
 
+function RouteInformation({
+  texts,
+  setTexts,
+  description,
+  position,
+  endpoint,
+  code,
+  result,
+}) {
+  return (
+    <section>
+      <h3>
+        <RequestMethod>GET</RequestMethod>
+        {description}
+      </h3>
+      <h5>
+        Endpoint: <EndpointLink>{endpoint}</EndpointLink>
+      </h5>
+      <h5>
+        Result:
+        <pre>
+          <JSONCode>{JSON.stringify(result, null, 4)}</JSONCode>
+        </pre>
+      </h5>
+      <h5>Example request:</h5>
+      <RequestCode>
+        <code>{code}</code>
+        <CopyToClipboardButton
+          text={code}
+          onCopy={() => {
+            const textsCopy = Array.from(texts);
+            if (textsCopy[position] == "Copied") return;
+            else textsCopy[position] = "Copied";
+            setTexts(textsCopy);
+          }}
+        >
+          <span>{texts[0]}</span>
+        </CopyToClipboardButton>
+      </RequestCode>
+    </section>
+  );
+}
+
 export default function Docs() {
-  const [texts,setTexts] = useState(["Copy To Clipboard"]);
+  const [texts, setTexts] = useState(["Copy To Clipboard","Copy To Clipboard"]);
   return (
     <>
       <Head title="Fnaf API Docs" />
       <Menu />
       <div style={{ padding: 20 }}>
         <h1>Fnaf API Docs</h1>
-        <h3>
-          <RequestMethod>GET</RequestMethod>
-          Information of all animatronics
-        </h3>
-        <h5>
-          Endpoint:{" "}
-          <EndpointLink>
-            https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/all
-          </EndpointLink>
-        </h5>
-        <h5>
-          Result:
-          <pre>
-            <JSONCode>
-              {JSON.stringify(
-                [
-                  {
-                    name: "Freddy",
-                    image:
-                      "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/freddy",
-                    game: "Five Nights at Freddy 1",
-                  },
-                  {
-                    name: "Bonnie",
-                    image:
-                      "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/bonnie",
-                    game: "Five Nights at Freddy 1",
-                  },
-                  "...",
-                ],
-                null,
-                4
-              )}
-            </JSONCode>
-          </pre>
-        </h5>
-        <h5>Example request:</h5>
-        <RequestCode>
-          <code>{codeOfInformationAllAnimatronics}</code>
-          <CopyToClipboardButton
-            text={codeOfInformationAllAnimatronics}
-            onCopy={() => {
-              const textsCopy = Array.from(texts);
-              if(textsCopy[0] == "Copied") return;
-              else textsCopy[0] = "Copied"
-              setTexts(textsCopy);
-            }}
-          >
-            <span>{texts[0]}</span>
-          </CopyToClipboardButton>
-        </RequestCode>
+
+        <RouteInformation
+          texts={texts}
+          setTexts={setTexts}
+          description="Information of all animatronics"
+          position={0}
+          endpoint="https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/all"
+          code={`async function getInformationOfAllAnimatronics(){
+            const endpoint = "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/all";
+            const data = await fetch(endpoint)
+          }
+          `}
+          result={[
+            {
+              name: "Freddy",
+              image:
+                "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/freddy",
+              game: "Five Nights at Freddy 1",
+            },
+            {
+              name: "Bonnie",
+              image:
+                "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/bonnie",
+              game: "Five Nights at Freddy 1",
+            },
+            "...",
+          ]}
+        />
       </div>
     </>
   );
