@@ -5,8 +5,8 @@
 // const fs = require('fs');
 
 // export default function AddOneAnimatronic(request,response){
-//     const name = "Adventure Withered Foxy";
-//     const image = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/984bb716-b4a7-4ce0-9deb-b584b6c143f2/da5iejb-e14431e5-a21c-4334-9886-a016f8c41f48.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvOTg0YmI3MTYtYjRhNy00Y2UwLTlkZWItYjU4NGI2YzE0M2YyXC9kYTVpZWpiLWUxNDQzMWU1LWEyMWMtNDMzNC05ODg2LWEwMTZmOGM0MWY0OC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.f9zZmnlep2UHfrRvtmdHmDg3M1hOn0BhdiKSRLgb_sA";
+//     const name = "Adventure Nightmare Ballon Boy";
+//     const image = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d4cdd49b-1838-4f98-b891-aa27a64629f7/d9sdg4k-7a0a2168-fbcb-40c9-aa12-7b4ccba0871a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvZDRjZGQ0OWItMTgzOC00Zjk4LWI4OTEtYWEyN2E2NDYyOWY3XC9kOXNkZzRrLTdhMGEyMTY4LWZiY2ItNDBjOS1hYTEyLTdiNGNjYmEwODcxYS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.QIrNTr7ip05LGizWSkWBKkDGnO_xWm9Q3HHiYBAMYts";
 //     const game = "Fnaf World";
     
 //     const nameInLowerCase = name.toLowerCase();
