@@ -561,7 +561,7 @@
     },
     {
         "name": "Adventure Spring Freddy",
-        "image": "http://localhost:3000/api/v1/image/adventure spring freddy",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/adventure spring freddy",
         "game": "Fnaf World"
     }
 ]
