@@ -10,9 +10,6 @@ export default function Menu() {
           <Link href="/">List</Link>
         </div>
         <div>
-          <Link href="/api/v1/all">Api</Link>
-        </div>
-        <div>
           <Link href="/docs">Docs</Link>
         </div>
       </Nav>
