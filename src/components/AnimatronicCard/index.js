@@ -17,7 +17,7 @@ export default function AnimatronicCard({ image, name, game }) {
   return (
     <AnimatronicCardContainer>
       <button onClick={speakNameOfAnimatronic}>
-        <AnimatronicImage src={image || "https://placehold.it/150x150"} />
+        <AnimatronicImage src={image || "https://placehold.it/150x150"} alt={name}/>
         <strong>{name}</strong> <span>{game}</span>
       </button>
     </AnimatronicCardContainer>
