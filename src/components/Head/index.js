@@ -10,10 +10,7 @@ export default function MyHead({ title }) {
       <meta charSet="utf-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta
-        name="description"
-        content="Five Nights at Freddy API"
-      />
+      <meta name="description" content="Five Nights at Freddy API" />
       <meta
         name="keywords"
         content="Five Nights at Freddy API,API,FNAF,FNAF API,Five Nights at Freddy"
@@ -22,7 +19,10 @@ export default function MyHead({ title }) {
       <meta name="theme-color" content="#111" />
       <meta name="mobile-web-app-capable" content="yes" />
 
-      <meta name="apple-mobile-web-app-title" content="Five Nights at Freddy API" />
+      <meta
+        name="apple-mobile-web-app-title"
+        content="Five Nights at Freddy API"
+      />
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
@@ -31,10 +31,7 @@ export default function MyHead({ title }) {
       <meta name="msapplication-TileImage" content="/icons/icon-128x128.png" />
 
       <meta name="application-name" content="Davi's Blog" />
-      <meta
-        name="msapplication-tooltip"
-        content="Five Nights at Freddy API"
-      />
+      <meta name="msapplication-tooltip" content="Five Nights at Freddy API" />
       <meta name="msapplication-starturl" content="/" />
 
       <meta name="msapplication-tap-highlight" content="no" />
@@ -51,10 +48,22 @@ export default function MyHead({ title }) {
       <meta name="screen-orientation" content="portrait"></meta>
 
       <link
+        href="/icons/icon-16x16.png"
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+      />
+      <link
         href="/icons/icon-32x32.png"
         rel="icon"
         type="image/png"
         sizes="32x32"
+      />
+      <link
+        href="/icons/icon-48x48.png"
+        rel="icon"
+        type="image/png"
+        sizes="48x48"
       />
       <link
         href="/icons/icon-64x64.png"
@@ -63,10 +72,22 @@ export default function MyHead({ title }) {
         sizes="64x64"
       />
       <link
+        href="/icons/icon-96x96.png"
+        rel="icon"
+        type="image/png"
+        sizes="96x96"
+      />
+      <link
         href="/icons/icon-128x128.png"
         rel="icon"
         type="image/png"
         sizes="128x128"
+      />
+      <link
+        href="/icons/icon-144x144.png"
+        rel="icon"
+        type="image/png"
+        sizes="144x144"
       />
       <link
         href="/icons/icon-192x192.png"
@@ -92,6 +113,12 @@ export default function MyHead({ title }) {
         type="image/png"
         sizes="512x512"
       />
+      <link
+        href="/icons/icon-1200x1200.png"
+        rel="icon"
+        type="image/png"
+        sizes="1200x1200"
+      />
 
       <link href="/icons/icon-64x64.png" rel="apple-touch-icon" sizes="64x64" />
       <link
@@ -104,7 +131,7 @@ export default function MyHead({ title }) {
         rel="apple-touch-icon"
         sizes="256x256"
       />
-      {/* <link href="/icons/icon-96x96.png" rel="apple-touch-icon" sizes="96x96" /> */}
+      <link href="/icons/icon-96x96.png" rel="apple-touch-icon" sizes="96x96" />
 
       <link href="/icons/icon-512x512.png" rel="apple-touch-startup-image" />
 
