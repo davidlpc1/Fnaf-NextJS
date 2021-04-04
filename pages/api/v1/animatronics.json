@@ -563,5 +563,10 @@
         "name": "Adventure Spring Freddy",
         "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/adventure spring freddy",
         "game": "Five Nights at Freddy World"
+    },
+    {
+        "name": "Adventure Lolbit",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/adventure lolbit",
+        "game": "Five Nights at Freddy World"
     }
 ]
