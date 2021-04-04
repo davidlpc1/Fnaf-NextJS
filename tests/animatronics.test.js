@@ -17,11 +17,11 @@ describe("Animatronics tests", () => {
   it("Verify if all the animatronics have an non-null name,non-null image and non-null game", () => {
     let allAnimatronicsHaveANameImageAndGame = true;
     animatronics.forEach(({ name, image, game }) => {
-      if (typeof name !== "string" && name === "" && name.length <= 0)
+      if (typeof name !== "string" || name === "" || name.length <= 0)
         allAnimatronicsHaveANameImageAndGame = false;
-      if (typeof image !== "string" && image === "" && image.length <= 0)
+      if (typeof image !== "string" || image === "" || image.length <= 0)
         allAnimatronicsHaveANameImageAndGame = false;
-      if (typeof game !== "string" && game === "" && game.length <= 0)
+      if (typeof game !== "string" || game === "" || game.length <= 0)
         allAnimatronicsHaveANameImageAndGame = false;
     });
     assert.ok(allAnimatronicsHaveANameImageAndGame);
