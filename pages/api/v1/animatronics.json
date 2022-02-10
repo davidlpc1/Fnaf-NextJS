@@ -568,5 +568,25 @@
         "name": "Adventure Lolbit",
         "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/adventure lolbit",
         "game": "Five Nights at Freddy World"
+    },
+    {
+        "name": "Glamrock Freddy",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/glamrock freddy",
+        "game": "Five Nights at Freddy Security Breach"
+    },
+    {
+        "name": "Glamrock Chica",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/glamrock chica",
+        "game": "Five Nights at Freddy Security Breach"
+    },
+    {
+        "name": "Roxanne Wolf",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/roxanne wolf",
+        "game": "Five Nights at Freddy Security Breach"
+    },
+    {
+        "name": "Montgomery Gator",
+        "image": "https://fnaf-web-git-main-davidlpc1.vercel.app/api/v1/image/montgomery gator",
+        "game": "Five Nights at Freddy Security Breach"
     }
 ]
